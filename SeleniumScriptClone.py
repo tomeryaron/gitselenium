@@ -36,7 +36,7 @@ chrome_driver.find_element_by_xpath('//*[@id="search-icon-legacy"]').click()
 # Facebook Login
 facebook = chrome_driver.get("https://facebook.com/login/")
 chrome_driver.find_element_by_xpath('//input[@id="email"]').send_keys("stammail@gmail.com")
-chrome_driver.find_element_by_xpath('//input[@id="pass"]').send_keys("sisma")
+chrome_driver.find_element_by_xpath('//input[@id="pass"]').send_keys("sismashona")
 #chrome_driver.find_element_by_xpath('//button[@id="loginbutton"]').click()
 
 # Task 8
